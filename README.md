@@ -1,12 +1,8 @@
-# naval-structural-fea-postgrad-thesis
-
 # Finite Element Analysis (FEA) of a Bulk Carrier Midship Section
 
 This repository contains my postgraduate specialization project (Specialization Thesis) completed at **ESSS (Engineering Simulation and Scientific Software)**.
 
 The project evaluates the longitudinal stresses on the midship section (parallel middle body) of the **China Steel Liberty** bulk carrier using the Finite Element Method (FEM) in Ansys, comparing the numerical results with analytical classic beam theory (Ship Beam Theory).
-
----
 
 ## Technical Scope & Key Contributions
 
@@ -21,17 +17,13 @@ The project evaluates the longitudinal stresses on the midship section (parallel
 - **Non-Linear FEA Simulation**: Configured the non-linear solver with **Large Deflection ON** and custom substep controls to resolve contact behavior (bonded welds) and geometry update iterations.
 - **Analytical Comparison & Benchmarking**: Computed section modulus and moments of inertia using the Parallel Axis Theorem, comparing FEA normal stress distribution against classical **Ship Beam Theory** ($\sigma = \frac{M y}{I}$).
 
----
-
 ## Tools & Software Used
 
 - **FEA Solver & Pre-processor**: Ansys Mechanical / Ansys Workbench
 - **3D CAD & Geometry Handling**: Ansys SpaceClaim
 - **Governing Standards**: IACS Common Structural Rules for Bulk Carriers and Oil Tankers
 
----
-
 ## Author
 
-- **Eng. Gustavo Miranda dos Santos**[cite: 1, 2]
-  - Postgraduate Specialization in Numerical Simulation / FEA — ESSS[cite: 1, 2]
+- **Eng. Gustavo Miranda dos Santos**
+  - Postgraduate Specialization in Numerical Simulation / FEA — ESSS
